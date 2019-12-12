@@ -35,7 +35,7 @@ def list_of_directors(source)
   array_of_directors
 end
 
-def total_gross(source)
+def total_gross(directors_database)
   grand_total = 0
   index = 0
 
