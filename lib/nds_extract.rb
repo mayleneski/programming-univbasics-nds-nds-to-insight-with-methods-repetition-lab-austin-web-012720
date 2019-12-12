@@ -40,8 +40,7 @@ def total_gross(source)
   index = 0
 
   while index < directors_database.length do
-   
-    grand_total +=
+    grand_total += 
     index += 1
   end 
   
