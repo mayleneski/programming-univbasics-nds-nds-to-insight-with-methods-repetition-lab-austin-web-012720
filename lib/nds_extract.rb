@@ -24,7 +24,7 @@ def gross_for_director(d)
   total
 end
 
-def list_of_directors(source)
+def list_of_directors(directors_database)
   array_of_directors = []
   index = 0
   
