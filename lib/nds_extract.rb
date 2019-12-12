@@ -35,12 +35,12 @@ def list_of_directors(source)
   array_of_directors
 end
 
-def total_gross(directors_database)
+def total_gross(directors_totals)
   grand_total = 0
   index = 0
 
   while index < directors_database.length do
-    grand_total += directors_database[list_of_directors][index]
+    grand_total += directors_totals[list_of_directors[index]]
     index += 1
   end 
   
