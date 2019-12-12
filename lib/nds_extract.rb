@@ -40,7 +40,7 @@ def total_gross(directors_database)
   index = 0
 
   while index < directors_database.length do
-    grand_total += directors_total[list_of_directors(index)]
+    grand_total += directors_totals[list_of_directors(index)]
     index += 1
   end 
   
