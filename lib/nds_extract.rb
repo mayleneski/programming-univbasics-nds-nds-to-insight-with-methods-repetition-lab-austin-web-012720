@@ -29,7 +29,7 @@ def list_of_directors(directors_database)
   index = 0
   
   while index < directors_database.length do
-    array_of_directors << source[index][:name]
+    array_of_directors << directors_database[index][:name]
     index += 1
   end
   array_of_directors
