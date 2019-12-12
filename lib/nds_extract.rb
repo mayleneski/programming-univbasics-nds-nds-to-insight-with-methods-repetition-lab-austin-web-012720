@@ -28,7 +28,7 @@ def list_of_directors(directors_database)
   array_of_directors = []
   index = 0
   
-  while index < source.length do
+  while index < directors_database.length do
     array_of_directors << source[index][:name]
     index += 1
   end
