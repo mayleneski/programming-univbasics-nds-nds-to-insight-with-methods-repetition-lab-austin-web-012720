@@ -40,8 +40,7 @@ def total_gross(directors_database)
   index = 0
 
   while index < directors_database.length do
-    key = list_of_directors(directors_database)[index]
-    grand_total += [key](directors_totals(directors_database))
+    grand_total += [list_of_directors(directors_totals)][index]
     index += 1
   end 
   
